@@ -41,7 +41,7 @@ Select:
 The dominant background after all these cuts in the  
 Higgs boson + 0 jet channel comes from $$WW$$ and $$Z$$+jets.
 
-3 Higgs events are identified, yielding a significance of 0.277
+3 Higgs events are identified, yielding a significance of 0.536
 
 ![](pictures/HWW0jet.png)
 
@@ -62,7 +62,7 @@ The dominant background after all these cuts in the
 Higgs boson + 1 jet channel comes from $$WW$$ and top pair  
 production.
 
-2 Higgs events are identified, yielding a significance of 0.517.
+2 Higgs events are identified, yielding a significance of 0.543.
 
 ## Have a go yourself!
 
