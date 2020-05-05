@@ -2,8 +2,8 @@
 
 ## Data
 
-The ATLAS collaboration has released 1 inverse femtobarn of data.
-One inverse femtobarn corresponds to approximately 100 trillion proton-proton collisions.
+The ATLAS collaboration has released 10 inverse femtobarns of data.
+Ten inverse femtobarns correspond to approximately 1000 trillion proton-proton collisions.
 
 The ATLAS datasets are available on this website and on the [CERN open data portal](http://opendata.cern.ch/education/ATLAS).
 
