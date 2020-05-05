@@ -4,11 +4,11 @@ The second Histogram Analyser includes data. This is shown by the black dots, wi
 
 ![](pictures/NewHistAnalyser.png)
 
-Here we will just be looking at the electron-muon channel. Before, we had 17 Higgs candidates (see Events per Channel histogram below), now we are looking at just 8 Higgs candidates (see Number of Expected Events histogram above). However, the $$Z$$ background is much reduced, so that makes it a good choice.
+Here we will just be looking at the electron-muon channel. Before, we had 124 Higgs candidates (see Events per Channel histogram below), now we are looking at just 66 Higgs candidates (see Number of Expected Events histogram above). However, the $$Z$$ background is much reduced, so that makes it a good choice.
 
 
 
-![](pictures/HWWcandidates.jpg)
+![](pictures/HWWcandidates.png)
 
 
 
@@ -17,7 +17,7 @@ The numbers shown in Number of Expected Events is calculated by the simulated Mo
 
 We have also added a new histogram, transverse mass. Transverse mass is analogous to invariant mass, but neglects the longitudinal momenta of the decay products.
 
-![](pictures/TransverseMass.jpg)
+![](pictures/TransverseMass.png)
 
 
 
@@ -38,20 +38,20 @@ $$ E_T^{ll} = (|p_T^{ll}|^2 + m_{ll}^2 )^{1/2} $$
 If you select just the Higgs events by clicking on the $$H \rightarrow WW$$ in 'Expected Number of Events' histogram, you will see the transverse mass of the Higgs. As expected, it peaks at the mass of the Higgs, 125 GeV.
 
 
-![](pictures/TransverseMassHWW.jpg)
+![](pictures/TransverseMassHWW.png)
 
 
 
 Select events with 2 jets by using your cursor to select N(Jets)=2. You will notice that both the data points and the simulated Monte Carlo distributions change. The data and simulated Monte Carlo are not exactly the same, but the general agreement is very good. This shows that these processes are well understood and well modelled.
 
-![](pictures/Njets2DataMC.jpg)
+![](pictures/Njets2DataMC.png)
 
 
 
 
 As before, make some selections to separate the Higgs boson signal from the background.
 
-Can you increase the significance to over 0.2 ?
+Can you increase the significance to over 0.5 ?
 
 Below is an event display, where a Higgs candidate has been identified decaying into an electron and muon.
 
