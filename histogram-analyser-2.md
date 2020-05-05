@@ -2,6 +2,8 @@
 
 The second Histogram Analyser includes data. This is shown by the black dots, with error bars.
 
+This second Histogram Analyser also includes minor backgrounds, labelled as 'Other' in purple. Minor backgrounds are required for data to match the total simulation. 'Other' includes single top production, $$WZ$$ and $$ZZ$$ diboson production, $$W$$ boson production and $$H \rightarrow ZZ^* \rightarrow \ell^+\ell^-\ell^+\ell^-$$ decay.
+
 ![](pictures/NewHistAnalyser.png)
 
 Here we will just be looking at the electron-muon channel. Before, we had 124 Higgs candidates (see Events per Channel histogram below), now we are looking at just 66 Higgs candidates (see Number of Expected Events histogram above). However, the $$Z$$ background is much reduced, so that makes it a good choice.
