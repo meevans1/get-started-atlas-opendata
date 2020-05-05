@@ -1,3 +1,6 @@
+# Historical information. Thiis need to be upated (note aed May 5, 2020)
+
+----
 # Get Started 
 Here we present two methods of online data visualisation.  Both are easy to use, but still very powerful.  
 
@@ -18,9 +21,9 @@ The Histogram Analyser will help you understand the data and the relationship be
 
 ## Analysis Browser
 
-**A web based tool for the more advanced user. ROOT browser lets you inspect the datasets more thoroughly.
+**A web based tool for the more advanced user. ROOT browser lets you inspect the datasets more thoroughly.**
+
 More variables are available for display with ROOTbrowser than Histogram Analyser.  
-**
 
 You can inspect one or more datasets.
 Distributions can be displayed for various variables of interest.
