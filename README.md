@@ -1,7 +1,3 @@
-# Historical information. Thiis need to be upated
-**(note added May 5, 2020)**
-
-----
 # Get Started 
 Here we present two methods of online data visualisation.  Both are easy to use, but still very powerful.  
 
