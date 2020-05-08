@@ -24,24 +24,24 @@ The selected ranges will be coloured, whilst non-selected ranges will be greyed 
 Histogram Analyser displays nine histograms.  The description of each follows.
 
 
-## Expected Number of Events for 10/fb
+## Expected Number of Events for 1/fb
 
-This histogram shows the number of events expected to be detected, reconstructed and recorded by ATLAS for 10 inverse femtobarn \(10/fb\) of data.  
-Ten inverse femtobarns correspond to approximately 1000 trillion proton-proton collisions.
+This histogram shows the number of events expected to be detected, reconstructed and recorded by ATLAS for 1 inverse femtobarn \(1/fb\) of data.  
+One inverse femtobarn corresponds to approximately 100 trillion proton-proton collisions.
 
 The expected number of events reconstructed and recorded by ATLAS is different to the number of events produced.  
 Some events will not be reconstructed due to the way the detector is constructed, the resolution of the sub-detectors, reconstruction efficiency and other inefficiencies.
 
-![](pictures/NumbersNoSelection.png)
+![](pictures/NumbersNoSelection_8TeV.jpg)
 
-With no cuts, we have 124 $$H\rightarrow W^+W^-$$ events, with a total background of 7342087 events.  The majority of the background is $$Z$$ boson production.
+With no cuts, we have seventeen $$H\rightarrow W^+W^-$$ events, with a total background of 613349 events.  The majority of the background is $$Z$$ boson production.
 
 The **significance** of the  $$H\rightarrow W^+W^-$$ events quantifies how "significant" the Higgs sample is with respect to the background.  It is calculated by $$(\text{Number of } H\rightarrow W^+W^- \text{events}) / \sqrt{\text{Number of background events}}$$\).  
 **The larger the significance value is, the better job you have done extracting the Higgs signal**.
 
 ## Channel
 
-![](pictures/channel.png)
+![](pictures/channel_8TeV.jpg)
 
 The leptonic decay channels are shown here: dielectron \(ee\), dimuon \(mm\) and electron-muon \(em\).  
 Decays to taus or hadrons are not considered in Histogram Analyser.
@@ -52,28 +52,28 @@ Histogram Analyser showing just simulated data, displays three leptonic channels
 
 This histogram displays the mass reconstructed from the two leptons in the final state.
 
-![](pictures/DiLeptonMassNoCuts.png)
+![](pictures/DiLeptonMassNoCuts_8TeV.png)
 
 With no cuts, this peaks at 90 GeV, due the huge [$$Z$$ boson](http://pdg.lbl.gov/2012/listings/rpp2012-list-z-boson.pdf) contribution.
 
-![](pictures/MassCutLess75.png)  
-![](pictures/NumbersMassCutLess75.png)
+![](pictures/MassCutLess75_8TeV.png)  
+![](pictures/NumbersMassCutLess75_8TeV.png)
 
 We can remove a large number of $$Z$$ boson events by selecting **Reconstructed Dilepton Mass**to be less than 75 GeV, whilst hardly touching our Higgs signal.  
-The $$H\rightarrow W^+W^-$$ sample significance increases from 0.046 to 0.250 with this cut.  
+The $$H\rightarrow W^+W^-$$ sample significance increases from 0.021 to 0.110 with this cut.  
 It is thus a useful quantity to use to reduce the huge $$Z$$ boson background.
 
 ## Number of Jets
 
 Number of jets found in the event.
 
-![](pictures/2plusJets.png)
+![](pictures/2plusJets_8TeV.jpg)
 
-![](pictures/Nevents2plusJets.png)
+![](pictures/Nevents2plusJets_8TeV.jpg)
 
-When selecting two or more jets we see that the $$Z$$ boson contribution decreases \(from 7281608 to 1527242\) and the $$t\bar{t}$$ contribution becomes more important.
+When selecting two or more jets we see that the $$Z$$ boson contribution decreases \(from 611276 to 25422\) and the $$t\bar{t}$$ contribution becomes more important.
 
-Selecting two or more jets, the ratio of ttbar to $$Z$$ events increases from 49730/7281608 = 0.0007 to 36958/1527242 = 0.02 and the green ttbar contribution is now noticeable in the histograms.
+Selecting two or more jets, the ratio of ttbar to $$Z$$ events increases from 1334/611276 = 0.002 to 1038/25422 = 0.04 and the green ttbar contribution is now noticeable in the histograms.
 
 Top-quark pair production leads to $$WW$$+jets final states.
 
@@ -81,13 +81,14 @@ Top-quark pair production leads to $$WW$$+jets final states.
 
 Jets originating from $$b$$-quarks are identified and labelled, or **tagged**, using so-called b-tagging algorithms.
 
-![](pictures/Btag.png)   
-![](pictures/BtaggedYes.png)  
-![](pictures/nEventsBtagged.png)
+![](pictures/Btag_8TeV.jpg)  
+![](pictures/nEventsBtagged_8TeV.png)  
+![](pictures/BtaggedYes_8TeV.jpg)  
+![](pictures/nEventsBtagged_8TeV.jpg)
 
 $$b$$-tagged jets are expected in top quark decays, but not in leptonic $$W$$ or $$Z$$ boson decays.
 
-Selecting 'Are Jets b-tagged' as yes, the ratio of ttbar to $$Z$$ events increases from 49730/7281608 = 0.0007 to 44532/169454 = 0.26 and the green ttbar contribution is now noticeable in the histograms.
+Selecting 'Are Jets b-tagged' as yes, the ratio of ttbar to $$Z$$ events increases from 1334/611276 = 0.002 to 1041/7227 = 0.14 and the green ttbar contribution is now noticeable in the histograms.
 
 ## Missing Transverse Momentum \(MET\) \[GeV\]
 
@@ -102,8 +103,8 @@ It is also expected to be a signature of many predicted physics events beyond th
 
 The standard abbreviation for missing transverse momentum is MET, for historical reasons.
 
-![](pictures/MET100.png)  
-![](pictures/NeventsMET100.png)
+![](pictures/MET100_8TeV.jpg)  
+![](pictures/NeventsMET100_8TeV.jpg)
 
 $$Z$$ boson decays to charged leptons do not have any neutrinos in the final state while the other processes do.  
 That is why requiring missing transverse momentum removes $$Z$$ boson events.
@@ -114,14 +115,14 @@ Select missing transverse momentum and watch how the ratio of $$WW$$ and ttbar t
 
 This is the [vectorial sum](https://en.wikipedia.org/wiki/Euclidean_vector#Addition_and_subtraction) of the transverse momenta of the observed charged leptons.
 
-![](pictures/PTZ.png)
+![](pictures/PTZ_8TeV.jpg)
 
 For $$Z$$ boson events, total lepton transverse momentum peaks at zero since the transverse momenta of both leptons cancel each other.
 
-![](pictures/PTttbar.png)
+![](pictures/PTttbar_8TeV.jpg)
 
-![](pictures/PTWW.png)  
-![](pictures/PTHWW.png)
+![](pictures/PTWW_8TeV.png)  
+![](pictures/PTHWW_8TeV.jpg)
 
 For the other processes this cancellation is not as pronounced.  
 Their distributions peak at between 30 and 80 GeV.
@@ -135,9 +136,7 @@ The azimuthal angle $$\phi$$ is measured from the $$x$$-axis, around the beam.
 
 In the event display above, two lepton tracks are displayed in red and the opening angle between the two leptons is marked in blue.
 
-![](pictures/OpeningAngleLeptonsZ.png)
-![](pictures/OpeningAngleLeptonsWWttbar.png)
-![](pictures/OpeningAngleLeptonsHWW.png)
+![](pictures/OpeningAngleLeptons_8TeV.png)
 
 If the leptons are emitted back-to-back, this is displayed on the histogram as 180 degrees.  
 $$H\rightarrow W^+W^-$$events show a peak at low values in contrast to all other processes.

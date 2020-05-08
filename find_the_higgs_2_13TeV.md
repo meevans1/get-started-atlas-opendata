@@ -43,7 +43,7 @@ Higgs boson + 0 jet channel comes from $$WW$$ and $$Z$$+jets.
 
 3 Higgs events are identified, yielding a significance of 0.536
 
-![](pictures/HWW0jet.png)
+![](pictures/HWW0jet_13TeV.png)
 
 ## Higgs boson + 1 jet
 
@@ -56,7 +56,7 @@ Select:
 * Total Lepton Transverse Momentum &gt; 30 GeV
 * Opening angle between leptons &lt; 80
 
-![](pictures/HWW1jet.png)
+![](pictures/HWW1jet_13TeV.png)
 
 The dominant background after all these cuts in the  
 Higgs boson + 1 jet channel comes from $$WW$$ and top pair  

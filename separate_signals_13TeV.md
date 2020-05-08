@@ -15,7 +15,7 @@ $$H\rightarrow W^+W^- \rightarrow \ell^+\ell^-\nu \bar\nu$$
 
 Our signal is the  Higgs boson which decays into two $$W$$ bosons which subsequently decay into leptons and neutrinos.
 
-![](pictures/separateSignals/HWW.png)
+![](pictures/separateSignals/HWW_13TeV.png)
 
 Let's look at the individual histograms:
 
@@ -32,7 +32,7 @@ Let's look at the individual histograms:
 
 Two $$W$$ bosons both decaying leptonically.
 
-![](pictures/separateSignals/WW.png)
+![](pictures/separateSignals/WW_13TeV.png)
 
 Let's look at the individual histograms:
 
@@ -47,7 +47,7 @@ Let's look at the individual histograms:
 
 Overall, the distributions are not so different from those for $$H\rightarrow W^+W^-$$, hence it is a difficult background process to remove.
 
-![](pictures/separateSignals/HWW_WW.png)
+![](pictures/separateSignals/HWW_WW_13TeV.png)
 
 Displaying both samples together shows why it is difficult to separate the $$H\rightarrow W^+W^-$$ signal from the $$WW$$ background.
 
@@ -57,7 +57,7 @@ The top quark is the heaviest subatomic particle ever observed, with a mass that
 
 Due to its high mass and short lifetime, the top quark provides a unique environment to study a bare quark.
 
-![](pictures/separateSignals/ttbar.png)
+![](pictures/separateSignals/ttbar_13TeV.png)
 
 Looking at the individual histograms:
 
@@ -81,7 +81,7 @@ will reduce the top quark contribution.
 
 ## $$Z$$
 
-![](pictures/separateSignals/justZ.png)
+![](pictures/separateSignals/justZ_13TeV.png)
 
 Looking at the individual histograms:
 
